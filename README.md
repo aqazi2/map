@@ -3,6 +3,7 @@ Getting Started
 This guide offers a comprehensive tutorial on how to utilize the Mapbox Isochrone API to create a web application that allows users to estimate travel distances by foot, bicycle, or car within predefined time limits. Follow these steps to develop your app:
 
 Access Token:
+![image](https://github.com/aqazi2/map/assets/129705579/accc2e9d-df80-4099-9af5-80d7260d0e41)
 
 An access token serves as an authentication key for accessing Mapbox services.
 Obtain your access token from your Mapbox account. If you don't have one, you must sign up for an account here.
