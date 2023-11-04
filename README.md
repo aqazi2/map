@@ -1,8 +1,6 @@
 Getting Started
 This section sets up the basic HTML structure and includes the Mapbox library.
 
-html
-Copy code
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,16 +30,14 @@ Copy code
 Create a Map
 Create a Mapbox map with a default style, center, and zoom level.
 
-html
-Copy code
+
     <div id="map"></div>
   </body>
 </html>
 Add the Sidebar
 This section adds the sidebar with options to choose a travel mode and maximum duration.
 
-html
-Copy code
+
     <div class="absolute fl my24 mx24 py24 px24 bg-gray-faint round">
       <form id="params">
         <!-- Travel mode options -->
@@ -58,8 +54,7 @@ Copy code
 Add the Isochrone API
 JavaScript code for handling the Isochrone API and fetching isochrone data.
 
-html
-Copy code
+
     <script>
       mapboxgl.accessToken = "your-access-token";  // Replace with your Mapbox access token
       const map = new mapboxgl.Map({
@@ -74,8 +69,7 @@ Copy code
 Draw the Isochrone Contour
 JavaScript code for adding the isochrone contour layer to the map.
 
-html
-Copy code
+
     <script>
       // ... Rest of the code for Isochrone API ...
 
@@ -107,8 +101,7 @@ Copy code
 Make the App Interactive
 JavaScript code for making the app interactive by updating isochrone data based on user input.
 
-html
-Copy code
+
     <script>
       // ... Rest of the code for Isochrone API ...
 
@@ -125,8 +118,6 @@ Copy code
 Add a Marker
 JavaScript code for adding a marker to the map.
 
-html
-Copy code
     <script>
       // ... Rest of the code for Isochrone API ...
 
@@ -147,8 +138,7 @@ Your final product should already be functional based on the provided code. User
 Next Steps
 Consider these next steps for further enhancing your application.
 
-html
-Copy code
+
       // ... Suggestions for next steps ...
 
       // Customize the map's visual style, colors, and legends
